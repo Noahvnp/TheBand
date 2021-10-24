@@ -1,0 +1,75 @@
+/*BREAK POINT */
+/*PC*/
+@media (min-witdh: 64em) {
+   
+}
+
+/*Mobile & Tablet*/
+@media (max-width: 63.9375em) {
+
+}
+
+/*Tablet*/
+@media (min-witdh: 46.25em) and (max-width: 63.9375em) {
+    .tablet {
+        display: block;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full {/*size mobile voi 1 cot tren 1 hang*/
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    #header .search-btn{
+       display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+     }
+
+    #content .member-image {
+        width: 70%;
+    }
+
+    .contact-form .btn {
+        display: block;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+}
